@@ -1,0 +1,9 @@
+libdir=C:/Users/mathieupauly/Documents/googletest-release-1.8.1-build/lib
+includedir=C:/Users/mathieupauly/Documents/googletest-release-1.8.1-build/include
+
+Name: gmock
+Description: GoogleMock (without main() function)
+Version: 1.9.0
+URL: https://github.com/google/googletest
+Libs: -L${libdir} -lgmock 
+Cflags: -I${includedir} -DGTEST_HAS_PTHREAD=0 
